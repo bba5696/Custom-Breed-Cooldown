@@ -3,13 +3,18 @@
     "requirement": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
+        "entity": {
+          "type": "minecraft:allay"
+        },
         "item": {
-          "items": "#custom_breed_cooldown:breeding_foods"
+          "items": [
+            "minecraft:amethyst_shard"
+          ]
         }
       }
     }
   },
   "rewards": {
-    "function": "custom_breed_cooldown:used_bred_item"
+    "function": "custom_breed_cooldown:macro/allay_clear"
   }
 }
