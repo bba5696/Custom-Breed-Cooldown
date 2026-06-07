@@ -15,6 +15,6 @@
     }
   },
   "rewards": {
-    "function": "custom_breed_cooldown:macro/allay_clear"
+    "function": "custom_breed_cooldown:macro/allay"
   }
 }
